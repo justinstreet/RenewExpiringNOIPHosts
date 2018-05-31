@@ -58,7 +58,7 @@ class Connect:
 
 def log(msg):
     """ Log to stdout and syslog """
-    print msg
+    print(msg)
     syslog.syslog(msg)
 
 
